@@ -20,7 +20,7 @@ lista todos os temas
  SkinInfo skin = allSkinInfo.get(index_tema);
 ```
 
-Altera o tema e reconstrie a tela com o tema selecionado
+Altera o tema e reconstroi a tela com o tema selecionado
 ```java
  SubstanceLookAndFeel.setSkin(si.getClassName());
  repaint();
